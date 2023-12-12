@@ -1,7 +1,7 @@
 1) prepare_dump.sh sql dump ı indirip açıyor.
 
 2) run_sql_script.sh :
-	25. satırdaki 'path_to_output_file' string'i ile csv file'ın yazılacağı path değiştirilmeli.
+	27. satırdaki 'path_to_output_file' string'i ile csv file'ın yazılacağı path değiştirilmeli.
 	"../output_dir/output.csv" gibi
 
 3) outputun yazılacağı directory'ye okuma yazma yetkisi verilmesi gerekiyor.
