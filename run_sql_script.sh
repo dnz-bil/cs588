@@ -23,7 +23,7 @@ COPY (
     internal,
     (SELECT text FROM public.pretty_printed_functions WHERE function_id = clones.function_id_one) AS pretty_function_one,
     (SELECT text FROM public.pretty_printed_functions WHERE function_id = clones.function_id_two) AS pretty_function_two
-  FROM public.clones LIMIT 1
+  FROM public.clones
 ) TO 'path_to_output_file' WITH CSV HEADER;
 EOF
 
