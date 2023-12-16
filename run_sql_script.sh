@@ -2,7 +2,7 @@
 
 
 DB_NAME="ccdb"
-DB_DUMP_FILE="./bcb.pgdump/bcb" 
+DB_DUMP_FILE="bcb" 
 PG_USER="postgres"
 
 # Create the database
