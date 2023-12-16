@@ -1,5 +1,6 @@
 # cs588
 postgresql to csv script for the server (8584153 Pairs)
+! there is also a h2 database for BigCloneBench study. It is not recommended to start with.
 
 ### If it is not working:
 - [ ] Check version  
