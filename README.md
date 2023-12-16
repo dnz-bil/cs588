@@ -2,12 +2,16 @@
 postgresql to csv script for the server (8584153 Pairs)
 
 ### If it is not working:
-- [x] Check version  
+- [ ] Check version  
 - [ ] Check file paths  
 - [ ] Check postgresql user permissions  
 - [ ] Check postgre status  
       -> commands: `systemctl status postgresql` or `service postgresql status`  
+- [ ] If postgresql can not write csv file, give chmod -x -u permission to target directory.(see README.txt)
 
+### Process .CSV file with pandas.
+- [x] A jupyter notebook that loads and process .csv file is added.
+- [x] Data statistics can be found in this notebook.
 
 ### Function examples: Raw & Normalized
 pretty_printed_blind_renamed_functions
